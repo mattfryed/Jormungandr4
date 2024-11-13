@@ -1,0 +1,11 @@
+Library/
+Logs/
+Temp/
+Packages/
+Assets/Asset\ Packs/
+Assets/Asset Packs/
+Assets/Asset*Packs/
+**/Asset Packs/
+Assets/AssetPacks/
+**/AssetPacks/
+AssetPacks/

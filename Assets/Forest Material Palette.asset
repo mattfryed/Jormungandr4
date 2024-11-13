@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1ca63a91b17724bbd99c8fa67e0180, type: 3}
+  m_Name: Forest Material Palette
+  m_EditorClassIdentifier: 
+  array:
+  - {fileID: 2100000, guid: 54ffff8c2578bda49932bdb655e0b450, type: 2}
+  - {fileID: 2100000, guid: d67b87cfef6762b46857c7773a91e8d4, type: 2}
+  - {fileID: 2100000, guid: 7cedba803bce1fd4a95e77ba523ded6b, type: 2}
+  - {fileID: 2100000, guid: d3909f1a1ea54b940bb9286a563c6dfc, type: 2}
+  - {fileID: 2100000, guid: 4a8ccdc93f4d71448aaea4a7a8ce9bc4, type: 2}
+  - {fileID: 2100000, guid: 53966c8b196cc254f93300cdada958ce, type: 2}
+  - {fileID: 2100000, guid: 47dcd1a15d8c3b049ba539623a5c795f, type: 2}
+  - {fileID: 2100000, guid: aa687d57e9cbd134b8545550b4ab507c, type: 2}
+  - {fileID: 2100000, guid: 34657e102a4d4124894831c75ec50493, type: 2}
+  - {fileID: 2100000, guid: 2f17ce02615b25b49abdf55dadb16abb, type: 2}
+  - {fileID: 2100000, guid: c9e8908e6b522e24aaa54f2c7ff1d8db, type: 2}
+  - {fileID: 2100000, guid: c9e8908e6b522e24aaa54f2c7ff1d8db, type: 2}
