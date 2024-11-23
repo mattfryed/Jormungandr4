@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 5b09505555025f595d0f547749765a444216192b2e7d246279281831b6e6376b
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 50090405560d585f5d590f2746710c444e151a7f782c71682c284b37b0b5313d
-      flags: 0
-    RecentlyUsedSceneGuid-2:
       value: 050550055d0c5c0c59575a7014750a44174e1b732d2b74322b2d1e36b1b0676c
       flags: 0
-    RecentlyUsedSceneGuid-3:
+    RecentlyUsedSceneGuid-1:
       value: 5357050251060c09585a5c7b407506444f4e4d2b2f7d24667e2d4e65e4b63161
       flags: 0
-    RecentlyUsedSceneGuid-4:
+    RecentlyUsedSceneGuid-2:
       value: 5002060506040b5e545a5a2044210e4442154d2c2d7e25672f784930b4b53761
       flags: 0
-    RecentlyUsedSceneGuid-5:
+    RecentlyUsedSceneGuid-3:
       value: 00080c0752075003095c5f2740755d44454f497b757972342b2f1e62e4b8646b
       flags: 0
-    RecentlyUsedSceneGuid-6:
+    RecentlyUsedSceneGuid-4:
       value: 5202515f50545a580f085573417a5b4412154f7b2a707f352f284865b3b6326c
       flags: 0
-    RecentlyUsedSceneGuid-7:
+    RecentlyUsedSceneGuid-5:
       value: 0609035354070b0d540c5b7a12260744154e49297a2c2063747e4a37bab36c6b
       flags: 0
-    RecentlyUsedSceneGuid-8:
+    RecentlyUsedSceneGuid-6:
       value: 500052055d5158095b5d0d7712220e44464e4c292e7d7036782c4d32e0b7666f
       flags: 0
-    RecentlyUsedSceneGuid-9:
+    RecentlyUsedSceneGuid-7:
       value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 5a0600575c0c5c5a0f575d7512220b4445154d2c2f2b25652c2f4566b3e66661
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 51040d555d04080b59565e7349775d44174e4c7e2e7d27352e79186bb5e56d6e
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
@@ -52,4 +52,6 @@ EditorUserSettings:
   m_VCHierarchyOverlayIcons: 1
   m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 1
+  m_VCScanLocalPackagesOnConnect: 1
   m_ArtifactGarbageCollection: 1
+  m_CompressAssetsOnImport: 1

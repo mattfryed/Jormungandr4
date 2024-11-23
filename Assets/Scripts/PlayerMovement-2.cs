@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Dreamteck.Forever;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement2 : MonoBehaviour
 {
     float horizontalInput = 0f;
     float verticalInput = 0f;
@@ -11,10 +11,15 @@ public class PlayerMovement : MonoBehaviour
     Runner runner;
     Vector2 currentOffset = Vector2.zero;
     Rigidbody rb;
+    [Tooltip("Width of movement")]
     public float moveWidth = 1f;
+    [Tooltip("Height of movement")]
     public float moveHeight = 1f; // Added for vertical movement
+    [Tooltip("Easing speed for input smoothing")]
     public float easeSpeed = 5f; // Easing speed
+    [Tooltip("Maximum allowed distance from the spline")]
     public float maxDistanceFromSpline = 5f; // Maximum allowed distance from the spline
+    [Tooltip("CenterPoint transform")]
     public Transform centerPoint; // CenterPoint transform
 
     void Awake()
@@ -71,6 +76,13 @@ public class PlayerMovement : MonoBehaviour
         // Apply the constrained offset
         currentOffset = new Vector2(horizontalDistance.x, horizontalDistance.z);
         runner.motion.offset = currentOffset;
+
+        // Rotate player in the direction of movement input
+        if (moveVector != Vector2.zero)
+        {
+            float radians = Mathf.Atan2(horizontalInput, verticalInput);
+            transform.rotation = Quaternion.Euler(0, 0, radians * Mathf.Rad2Deg);
+        }
     }
 
     void FixedUpdate()
@@ -79,7 +91,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 moveVector = new Vector3(horizontalInput * moveWidth, 0, verticalInput * moveHeight) * moveSpeed;
 
         // Apply movement using Rigidbody for physics-based collision
-        rb.velocity = moveVector;
+        rb.linearVelocity = moveVector;
     }
 
     private void OnCollisionEnter(Collision collision)
